@@ -1,0 +1,92 @@
+.app-container {
+  background-color: #FDFBF7;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #333;
+  max-width: 600px;
+  margin: auto;
+  padding: 15px;
+  line-height: 1.6;
+}
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #A08C74;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6B5B4B;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #D7C6B4;
+  padding-bottom: 5px;
+}
+.card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  margin-bottom: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card-title {
+  font-weight: bold;
+  color: #4A4A4A;
+}
+.weather-info {
+  color: #6B5B4B;
+  font-size: 14px;
+}
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.tag-food { background-color: #F0D9B5; color: #6B5B4B; }
+.tag-shopping { background-color: #D7C6B4; color: #4A4A4A; }
+.tag-attraction { background-color: #E6E0D3; color: #6B5B4B; }
+.tag-driving { background-color: #FDFBF7; border: 1px solid #D7C6B4; color: #6B5B4B; }
+.nav-btn {
+  background-color: #A08C74;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+}
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.budget-table th, .budget-table td {
+  border: 1px solid #D7C6B4;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+.budget-table th {
+  background-color: #E6E0D3;
+  color: #4A4A4A;
+}
+.highlight {
+  font-weight: bold;
+  color: #D97706;
+}
